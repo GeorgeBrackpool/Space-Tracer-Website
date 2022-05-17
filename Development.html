@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Development | Space Tracer</title>
+        <meta name="description" content="Space Tracer, A free mobile game available on the Google Play Store!">
+        <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no">
+        <link rel="icon" type="image/x-icon" href="/images/Space_Tracer_Favicon.ico">
+        <!--Bootstrap CSS comes first-->
+        <link rel="stylesheet" href="bootstrap-theme-cyborg.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/77f7da89c1.js" crossorigin="anonymous"></script>
+        
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!--Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="back-to-top">
+            <a class="navbar-brand" href="index.html">Home</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler01" aria-controls="navbarToggler01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarToggler01">
+              <ul class="navbar-nav navbar-right ml-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="Development.html">Development</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://play.google.com/store/apps/details?id=com.GBrackpool.SpaceTracer">Get The App</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <!--End of Navigation-->
+          <section class="development-masthead">
+            <div class="container px-5">
+              <div class="row">
+              <div class="development-landing-text">
+                  <h1 style="color:red;">The Development of Space Tracer</h1>
+                </div>
+              </div>
+            </div>
+          </div> 
+          </section>
+          <!--Development Introduction Section-->
+          <section class="development-introduction">
+            <div class="container px-5">
+              <div class="row pt-5 pb-5 align-content-center">
+              <h1 class="text-center lh-1 pb-4">How It Began</h1>
+              <div class="col-lg-6 col-md-6">
+              <p class="text-white">After suffering a bad injury in 2021 I had a lot of time to think. I had been wanting to dive into game development so I grabbed a notebook and a pen and started brainstorming. After spilling a lot of ideas onto the pages I decided I liked the idea of Space Tracer the most for my first game. I had a very clear idea in my head of what I wanted. A game that fits into the casual mobile game category that is simple but addictive that players can improve at over time similar to Temple Run & Flappy Bird. I came up with a story and some background and started thinking about features and the overall game flow. I wanted the player to use the touchscreen to control their ship. Which presented a challenge with Unity's input system.</p>
+              </div>
+              <div class="col-lg-6 col-md-6">
+              <p class="text-white">A big feature I had to decide early on in the process was the player shooting. Shooting and destroying things is fun. <b>Really fun.</b> But on small devices you have limited space to give the player to control their character. I experimented with different ideas in the prototype phase such as: a player tapping somewhere or holding down on the ship but ultimately making the ship shooting automatically was the best way of doing it. I wanted the game flow and pace to be fairly fast so that the player feel like they were zooming through space and to add difficulty in dodging objects such as ships and lasers. With a notepad full of ideas and features ranked in order of must have to would be nice to implement I began development. </p>
+              </div>
+            </div>    
+          </div>
+        </section>
+        <!--Development early stage section-->
+        <section class="development-early-stage">
+          <div class="container px-5">
+            <div class="row gx-5 pt-5 pb-4 align-items-center justify-content-center justify-content-lg-between">
+                <div class="col-md-7">
+                  <h2 class="dev-early-heading">The Prototype</h2>
+                  <h3 class="lead text-muted">Placeholders, Main Mechanics and Enemies</p>
+                    <br />
+                    <p class="text-white">To start with I worked on one of the most important parts of the game. Player movement. I needed some assets to create a small prototype and luckily there are lots for free on the Asset Store. I downloaded the Kenney Space Shooter Redux Asset pack which has some incredible sprites and some are in the final build! I delved into learning about how to handle user taps and input from the touchscreen. At first I made it so that when you tap on the screen the ship would immediately move there which was a start. Eventually I implemented dragging the ship by touching and holding on it and dragging the sprite around the screen. This worked pretty well then I realised that I needed to add some kind of invisible wall or barrier to the sides of the screen so players can't lose their ship outside the boundaries of their screen width. For the enemies there are three distinct categories of ships which can be seen in the about section from the main menu screen, they are: basic fighters, interceptors and bosses. Each category of ship has their own advantages and disadvantages. The basic fighters and interceptors reward the player with different amounts of points when they are destroyed. With the basic ships rewarding the lowest amount of points and interceptors rewarding the player with a good amount of points. Bosses give lots of points that increases with every new boss until the game loops.  </p>
+                </div>
+                <div class="col-md-5 col-sm-8">
+                    <div class="px-lg-3 px-3 px-sm-0 dev-early-square"><img class="img-fluid rectangle-featurette-image" src="images/kenney-spritesheet.png" alt="A sprite sheet for a 2D space shooter from Kenney Assets."></div>   
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--Development on Enemies and Power ups-->
+        <section class="development-enemies">
+          <div class="container px-5">
+            <div class="row gx-5 pb-4 align-items-center justify-content-center justify-content-lg-between">
+                <div class="col-md-5 col-sm-8 order-lg-1 order-sm-2 order-2">
+                    <div class="px-lg-3 px-3 px-sm-0 dev-early-square-left"><img class="img-fluid" style="width: 90%; height: auto; padding-left: 35px;" src="images/Big_Boss1.png" alt="A sprite of one of the main bosses of Space Tracer"></div>   
+                </div>
+                <div class="col-md-7 order-lg-2 order-md-2 order-sm-1 order-1">
+                  <h2 class="text-right">Finishing the Prototype & Early Version</h2>
+                  <h3 class="lead text-info text-right">Waypoints, Waves and Balance</p>
+                    <br />
+                    <p class="text-white text-right">The waves were difficult to create in Unity and the solution for my game was using scriptable objects and waypoints. Each wave is an object with variables that can be adjusted for that wave, for example the amount of enemies to be instantiated (spawned) in that wave, the time between spawns and most importantly the path that they will follow. The paths are made up of waypoints and the enemy will go point to point and then de-spawn on the final waypoint placed but this happens off screen. 
+                      In terms of game design for the waves I wanted them to gradually increase in difficulty, especially after each boss. There were multiple ways of adjusting the difficulty from the positions of the waypoints which gave players limited options to maneuver as the enemy's rain lasers down upon them to increasing the movespeed and amount of enemies in a wave. There needs to be a good amount of 'dials' for designers to adjust and playtest.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="development-random-polish">
+          <div class="container px-5">
+            <div class="row gx-5 pt-5 pb-4 align-items-center justify-content-center justify-content-lg-between">
+                <div class="col-md-7">
+                  <h2 class="dev-early-heading">Mid-Development</h2>
+                  <h3 class="lead text-muted">Randomness in Game Design and Assets</p>
+                    <br />
+                    <p class="text-white">An important part of game design is randomness. Randomness in any game is what makes it interesting. Whether that's loot tables, enemies spawning or in something like Flappy Bird the height and position of the pipes as you progress continuously changes. Now if the pipes were not random then players would eventually learn the pattern and get very quickly bored. For Space Tracer there were many elements of the game that were possible to randomize. I chose to add randomness to the shooting for the enemy and player, although the min and max time before shooting for the player is very small. I adjusted the firing times for the enemies based upon the category of the ship. They will shoot at a random point between a minimum time and a maximum time allowed between shots. For example if the minimum time was one and the maximum time was 5 then an enemy could shoot lasers every second or any time in between up to 5 seconds. This adds difficulty for the player as laser fire could happen at any moment the enemy is on screen. At this point the game was shaping up really well and I wanted to create some of my own assets. All the ships were drawn using Aseprite which is amazing software for pixelart. I also drew a few pixelart space backgrounds. For the music I took most of the soundtracks from <a href="https://opengameart.org/">OpenGameArt.Org</a> and made the main theme for the game which can be heard during gameplay using Garageband on an iPhone.   </p>
+                </div>
+                <div class="col-md-5 col-sm-8">
+                    <div class="px-lg-3 px-3 px-sm-0"><img class="img-fluid" src="images/dice.jpg" alt="An image of some 20 roll dice." style="width: 100%; height: auto; border-radius: 10%;" ></div>   
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="development-release">
+          <div class="container px-5">
+            <div class="row pt-5 pb-5 align-content-center">
+            <h1 class="text-center lh-1 pb-4">Release and Updates</h1>
+            <div class="col-lg-6 col-md-6">
+            <p class="text-white">When the game was polished I first needed to get the game into the hands of players and testers. As any game developer will tell you, you can play your game a lot during development to test things but players and testers will almost always find issues that you may have missed or happen under specific circumstances. Players and testers are also good at finding exploits if there are any which can really break the immersion of a game. I uploaded my game to Google Play and opened an Alpha test track and assigned some of my friends who were more than happy to test out the game. It was really helpful and a lot of small but important changes were made. Most notably to difficulty and the performance of the game as they had different devices. After some more polishing and small changes I moved into a Beta test and invited some more testers and went through the process again. I made a change to how the player movement was processed in Unity which allowed for smoother movement. This was down to my lack of knowledge about unity but it was something really useful for future projects. I made some UI tweaks and continued to balance the game and eventually the game was ready for release. The game was released in early January 2022 and did well with a small influx of downloads. However I did get some feedback from friends and players.</p>
+            </div>
+            <div class="col-lg-6 col-md-6">
+            <p class="text-white">The most requested feature was a leaderboard system as the goal of the game is to get the highest score possible to compare and compete with friends. I looked into how to do this in Unity but Google Play has it's own leaderboard and achievement system in their version of Apple's Game centre called "Google Play Games". Google Play Games allows you to create leaderboards, achievements and even track in game currency! Using Unity with Google Play Games however is difficult. Luckily there have been a few plugins that have been made to make integrating the two together a breeze. I used the <a href="https://jizc.github.io/CloudOnce/">Cloud Once </a>plugin. It has fantastic documentation and a very well designed interface which saved me hours in configuring leaderboards and as I will discuss now, achievements. Although the leaderboard system was great I wanted another goal for players to aim for and that is to unlock all of Space Tracers achievements. It was simple enough to implement through CloudOnce and running checks to unlock the achievements in the code. Now that achievements and leaderboards were now implemented I was happy with the state of the game and learnt a lot about programming and development and have discovered just how key testing is in the process of Game Development and I will carry these lessons with me onto my next projects.</p>
+            </div>
+          </div>    
+        </div>
+      </section>
+
+
+        <!--Scripts -->
+        <script src="scroll_button.js" async defer></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <!--End of Scripts-->    
+    </body>
+    <footer>
+      <div class="container-fluid">
+        <div class= "nav justify-content-center mb-3">
+          <li class="nav-item"><a href="index.html" class="nav-link px-2">Home</a></li>
+          <li class="nav-item"><a href="Development.html" class="nav-link px-2">Development</a></li>
+          <li class="nav-item"><a href="terms-conditions.html" class="nav-link px-2">Terms & Conditions</a></li>
+          <li class="nav-item"><a href="privacy-policy.html" class="nav-link px-2">Privacy Policy</a></li>
+          <li class="nav-item"><a href="#back-to-top" class="nav-link px-2">Back To Top</a></li>
+        </div>
+      </div>
+    <div class="mt-4 py-2 justify-content-center border-top">
+      <p class="px-1 text-muted" style="position: -2rem 0px;">© George Brackpool</p>
+      </div>
+    </footer>
+</html>

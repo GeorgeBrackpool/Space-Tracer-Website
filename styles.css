@@ -1,0 +1,376 @@
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+  
+  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+  .row.content {height: 450px}
+  
+  /* Set gray background color and 100% height */
+  .sidenav {
+    padding-top: 20px;
+    background-color: #f1f1f1;
+    height: 100%;
+  }
+  
+  /* Set black background color, white text and some padding */
+  footer {
+    background-color: #1B262C;
+    color: white;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  /* On small screens, set height to 'auto' for sidenav and grid */
+  @media screen and (max-width: 767px) {
+    .sidenav {
+      height: auto;
+      padding: 15px;
+    }
+    .row.content {height:auto;} 
+  }
+  .body{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: black;
+  }
+  .container{
+    max-height: 100%;
+  }
+  /*--Font Awesome--*/
+  .i{
+    font-family: 'FontAwesome';
+  }
+  .fa{
+    font-family: 'FontAwesome' !important;
+
+  }
+  .fa-google-play{
+    padding-left: .2em;
+  }
+
+
+  /*--Landing Masthead--*/
+.masthead{
+  padding-top: 8rem;
+  padding-bottom: 6rem;
+  background-image: url("images/header_spaceship.jpg");
+  height: 100%;
+  width: 100%;
+  background-size: cover; /*Covers the whole of the masthead*/
+  background-position: 0rem -2rem; /*Helps keep moon on background in line with logo and text*/
+}
+@media (max-width: 992px) {
+  .masthead{
+    background-position:center center;
+    }
+  }
+  @media (max-width: 992px){  
+.masthead-text{
+  padding-top: 20px;
+    text-align: center;
+  }
+}
+
+.app-badge-custom{
+  max-width: 100%;
+  height: auto;
+  
+}
+.app-badge-custom-box{
+  max-width: 50%;
+  position: relative; 
+  bottom: 3rem; 
+  right: 1.2rem;
+}
+@media (max-width: 992px){
+  .app-badge-custom-box{
+    max-width: 80%;
+    position: relative; 
+    bottom: 2rem;
+    right: 0rem;
+   
+  }
+}  
+.landing-logo
+{
+  padding-left: 25px;
+  margin-left: 1rem;  
+  padding-top: 20px;
+  max-width: 100%; 
+  height:auto;
+}
+
+@media (max-width: 768px){
+  .landing-logo{
+    padding-left: 0px;
+    margin-left: 0rem;
+  }
+}
+
+
+/*--iPhone Device Styling--*/
+.masthead-device-mockup{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.device[data-device=iPhoneX][data-orientation=portrait][data-color=black]{
+  padding-bottom: 198.898071625%;
+}
+.device{
+  position: relative; bottom: 3.5rem;
+  background-size: cover;
+  
+}
+.device[data-device=iPhoneX][data-orientation=portrait][data-color=black]::after{
+  content: "";
+  background-image: url("images/portrait_black.png");
+}
+.device::after{
+  position: absolute;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.device .screen{
+  position: absolute;
+  background-size: cover;
+  pointer-events: auto;
+}
+.device[data-device=iPhoneX][data-orientation=portrait][data-color=black] .screen{
+  top: 3.1855955679%;
+left: 6.8870523416%;
+width: 87.2258953168%;
+height: 94%;
+}
+.device-wrapper{
+  width: 100%;
+}
+.masthead .masthead-device-mockup .device-wrapper{
+  max-width: 15rem;
+}
+
+/* Common Mouse Scroll Element */
+.scroll-down {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  width: 75px;
+  height: 90px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+.scroll-down>label {
+  pointer-events: none;
+  font-family: monospace;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #dffffd;
+}
+
+.scroll-down span {
+  position: absolute;
+  display: inline-block;
+  top: 20px;
+  height: 30px;
+  width: 2px;
+  left: calc(50% - 1px);
+  animation: animateArrow 1.5s infinite linear;
+}
+@keyframes  animateArrow {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+}
+.scroll-down span::before,
+.scroll-down span::after {
+  position: absolute;
+  content: "";
+  width: 3px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #fff;
+  border-radius: 3px;
+}
+.scroll-down span::before {
+  transform-origin: bottom;
+  transform: rotate(-45deg);
+}
+.scroll-down span::after {
+  transform-origin: bottom;
+  margin-left: -1px;
+  transform: rotate(45deg);
+}
+
+/* Features Container */
+.marketing-features{
+  text-align: center;
+  padding-top: 49px;
+  padding-bottom: 49px;
+}
+
+.bg-gradient-primary-to-secondary{
+  background: linear-gradient(70deg, #0F4C75, #3282B8 ) !important;
+}
+.colour-circle{
+  background-color: grey;
+  width: 140px;
+  height: 140px;
+}
+
+/* Hiscores Section */
+#Hiscores{
+  padding-top: 84px;
+  padding-bottom: 84px;
+  padding-left: 60px;
+  padding-right: 60px;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  background-color: black
+}
+
+/* Testimonials */
+#Testimonials{
+  text-align: center;
+  background-color: #0F4C75;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon
+{
+  width: 30px;
+  height: 30px;
+}
+
+
+/*Call to Action */
+#cta{
+  position: relative;
+  padding-top: 250px;
+  padding-bottom: 250px;
+  padding-left: 60px;
+  padding-right: 60px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+  rgba(0, 0, 0, 0.3)),url("images/space-helmet.jpg");
+  background-size: cover;
+  background-position: -2rem 0rem;
+  
+}
+@media (max-width: 992px){
+  #cta{
+    background-position: center center;
+  }
+}
+
+
+/*---Development Page---*/
+
+/* Development Masthead */
+.development-masthead{
+  background: url("/images/SpaceTracerBackground.png") no-repeat center center fixed;
+            display: table;
+            position: relative;
+            height: 100%;
+            width: 100%;
+            padding-top: 6rem;
+            padding-bottom: 10rem;
+            background-size: cover;
+            filter: grayscale(10%);
+}
+.development-landing-text{
+            display: table-cell;
+            text-align: center;
+            vertical-align: middle;
+}
+
+.development-introduction{
+  background-color: #0F4C75;
+}
+
+/* Development Early Stage */
+.development-early-stage{
+
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: black;
+}
+.dev-early-heading{
+  font-size: 50px;
+}
+.dev-early-square{
+  border-radius: 15px 50px;
+  padding: 20px;
+  width: 100%;
+  height: auto;
+  background: lightgray;
+}
+  .rectangle-featurette-image{
+    padding-left: 50px;
+    width: 100%;
+    height: auto;
+    
+  }
+
+  /* Development Enemies */
+  .development-enemies{
+    background-color: #0F4C75;
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+  .dev-early-square-left{
+    border-radius: 50px 15px;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    background: lightgray;
+  }
+
+  /* Development Randomness and Polishing */
+  .development-random-polish{
+    background-color: black;
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+
+  /* Development Release */
+  .development-release{
+    background-color: #0F4C75;
+  }
+
+  /*Privacy Policy & Terms and Conditions Formatting */
+  .privacy-terms-container{
+    text-align: left;
+    padding: 2em;
+    background: linear-gradient(70deg, #0F4C75, #3282B8 ) !important;
+
+  }
+  .privacy-terms-container p{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: white;
+  }
+  .privacy-terms-container ul li{
+    color: white;
+  }
+  #privacy-terms-body-id{
+    background-image: url('images/Space_tracer_background2.png');
+    background-repeat:repeat;
+    background-size: 80%;
+  }
