@@ -288,7 +288,7 @@ height: 94%;
 
 /* Development Masthead */
 .development-masthead{
-  background: url("/images/SpaceTracerBackground.png") no-repeat center center fixed;
+  background: url("images/SpaceTracerBackground.png") no-repeat center center fixed;
             display: table;
             position: relative;
             height: 100%;
