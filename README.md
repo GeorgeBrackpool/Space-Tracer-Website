@@ -19,7 +19,7 @@ None.
 
 Citation
 
-Influence for the site design came from Forest App: https://www.forestapp.cc/
+Infleunce for the site design came from Forest App: https://www.forestapp.cc/
 
 Many thanks to the talented photographers on Unsplash for some of the site photos.
 
