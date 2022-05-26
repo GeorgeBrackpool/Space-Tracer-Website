@@ -310,13 +310,7 @@ height: 94%;
             background-size: cover;
             filter: grayscale(10%);
 }
-@media (max-width: 992px) {
-  .development-masthead{
-    
-    background: url('images/SpaceTracerBackground.png') no-repeat center center inherit;
-    background-attachment: inherit;
-    }
-  }
+
 .development-landing-text{
             display: table-cell;
             text-align: center;
