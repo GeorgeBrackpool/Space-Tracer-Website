@@ -300,7 +300,7 @@ height: 94%;
 
 /* Development Masthead */
 .development-masthead{
-  background: url('images/SpaceTracerBackground.png') no-repeat center center fixed;
+  background: url("images/SpaceTracerBackground.png") no-repeat center center fixed;
             display: table;
             position: relative;
             height: 100%;
@@ -310,6 +310,13 @@ height: 94%;
             background-size: cover;
             filter: grayscale(10%);
 }
+@media (max-width: 992px) {
+  .development-masthead{
+    
+    background: url('images/SpaceTracerBackground.png') no-repeat center center inherit;
+    background-attachment: inherit;
+    }
+  }
 .development-landing-text{
             display: table-cell;
             text-align: center;
