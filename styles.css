@@ -311,6 +311,12 @@ height: 94%;
             filter: grayscale(10%);
 }
 
+@media (max-width: 768px){
+  .development-masthead{
+    background-attachment: unset;
+    background-repeat: no-repeat;
+  }
+}
 .development-landing-text{
             display: table-cell;
             text-align: center;
