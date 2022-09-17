@@ -3,7 +3,7 @@ The website can be viewed here: https://georgebrackpool.github.io/Space-Tracer-W
 
 Description
 
-A website designed to showcase and encourage more downloads for my first game release on the Google Play Store, Space Tracer. Space Tracer is a mobile space action game available only on the Google Play Store worldwide. Built using HTML, CSS and Bootstrap along with some Javascript for smooth scroll buttons. Improving upon skills that I learnt from the Tinder Clone website. 
+A website designed to showcase and encourage more downloads for my first game release on the Google Play Store, Space Tracer. Space Tracer is a mobile space action game available on the Google Play Store worldwide. Built using HTML, CSS and Bootstrap along with some Javascript for smooth scroll buttons. Improving upon skills that I learnt from the Tinder Clone website. 
 
 Installation
 
